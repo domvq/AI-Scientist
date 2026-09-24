@@ -1,6 +1,6 @@
 # 🧪 AI Scientist
 
-STreamlit Host:https://ai-scientist-prototype.streamlit.app/
+Streamlit Host:https://ai-scientist-prototype.streamlit.app/
 
 An experimental autonomous research assistant built with **Python, Streamlit, Groq, and arXiv**.
 
