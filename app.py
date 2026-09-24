@@ -1,4 +1,4 @@
-
+import sys
 import os
 import subprocess
 import tempfile
@@ -97,7 +97,7 @@ def run_experiment_code(code):
         env["PYTHONIOENCODING"] = "utf-8"
 
         result = subprocess.run(
-            ["python", filename],
+            [sys.executable, filename],
             capture_output=True,
             text=True,
             encoding="utf-8",
